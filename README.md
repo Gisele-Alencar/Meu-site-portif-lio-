@@ -2,19 +2,22 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# Portfólio Frontend Desenvolvido em Low Code 
 
-This contains everything you need to run your app locally.
+Este repositório contém o código-fonte do meu site de portfólio profissional, desenvolvido com o auxílio do Google AI Studio. O projeto foi gerado utilizando inteligência artificial e posteriormente refinado com ajustes manuais para atender às necessidades específicas de apresentação profissional.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1OQ-Ke3IYLel_ehpot7yvkXONA465E4b0
+## Sobre o Projeto
 
-## Run Locally
-
-**Prerequisites:**  Node.js
+Este projeto tem como objetivo apresentar minhas habilidades técnicas, projetos, experiência profissional e minha forma de pensar soluções digitais. Demonstrando minha capacidade de utilizar inteligência artificial como acelerador de desenvolvimento, mantendo controle técnico e decisões conscientes de arquitetura, estilo e comportamento.
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Tecnologias Utilizadas
+
+React – Construção de interfaces modernas baseadas em componentes
+TypeScript – Segurança de tipos e maior confiabilidade no código
+Google AI Studio – Geração inicial da base do projeto
+HTML5 & CSS3 – Estrutura e estilização responsiva
+Node.js / NPM – Gerenciamento de dependências e scripts
+Vite / Build moderno – Build rápido e otimizado para produção
+
+ ## Acesse aqui 👇
