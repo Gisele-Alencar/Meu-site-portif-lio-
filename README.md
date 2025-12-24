@@ -13,8 +13,10 @@ Este projeto tem como objetivo apresentar minhas habilidades técnicas, projetos
 
 ## 🔹Tecnologias Utilizadas
 
-### React – Construção de interfaces modernas baseadas em componentes
+React – Construção de interfaces modernas baseadas em componentes
+
 TypeScript – Segurança de tipos e maior confiabilidade no código
+
 Google AI Studio – Geração inicial da base do projeto
 HTML5 & CSS3 – Estrutura e estilização responsiva
 Node.js / NPM – Gerenciamento de dependências e scripts
