@@ -2,7 +2,7 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# 🔹Portfólio Front End Desenvolvido em Low Code 
+## 🔹Portfólio Front End Desenvolvido em Low Code 
 
 Este repositório contém o código-fonte do meu site de portfólio profissional, desenvolvido com o auxílio do Google AI Studio. O projeto foi gerado utilizando inteligência artificial e posteriormente refinado com ajustes manuais para atender às necessidades específicas de apresentação profissional.
 
