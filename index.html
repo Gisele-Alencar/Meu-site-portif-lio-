@@ -18,51 +18,49 @@
 
     <!-- Tailwind Config -->
     <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              bg: "rgba(10, 10, 15, 0.85)",     // preto glass
-              surface: "rgba(20, 20, 30, 0.55)",
-              accent: "#e879f9",
-              accentSoft: "#f5b7ff",
-              dark: "#e5e7eb",
-            },
-            backdropBlur: {
-              xs: "2px",
-            },
-            fontFamily: {
-              sans: ["Space Grotesk", "sans-serif"],
-              display: ["Archivo Black", "sans-serif"],
-            },
-          },
-        },
-      };
-    </script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          bg: "rgba(10,10,15,0.85)",      // preto glass
+          surface: "rgba(20,20,30,0.55)", // preto glass cards
+          accent: "#f472b6",              // rosa (igual imagem)
+          accentSoft: "#f9a8d4",
+          dark: "#e5e7eb"
+        }
+      }
+    }
+  }
+</script>
 
     <style>
-      html {
-        scroll-behavior: smooth;
-        background: radial-gradient(
-          circle at top,
-          rgba(232, 121, 249, 0.12),
-          rgba(10, 10, 15, 1) 55%
-        );
-      }
+    <style>
+  .glass-dark {
+    background: rgba(20,20,30,0.6);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-top: 1px solid rgba(244,114,182,0.25);
+  }
 
-      .glass {
-        background: rgba(20, 20, 30, 0.55);
-        backdrop-filter: blur(14px);
-        -webkit-backdrop-filter: blur(14px);
-        border: 1px solid rgba(232, 121, 249, 0.25);
-        box-shadow: 0 0 40px rgba(232, 121, 249, 0.05);
-      }
+  .glass-pink {
+    background: rgba(244,114,182,0.65);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+  }
 
-      .text-outline {
-        -webkit-text-stroke: 1px #e879f9;
-        color: transparent;
-      }
-    </style>
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  .animate-scroll {
+    animation: scroll 40s linear infinite;
+  }
+
+  .pause-on-hover:hover {
+    animation-play-state: paused;
+  }
+</style>
 
     <!-- Import map -->
     <script type="importmap">
