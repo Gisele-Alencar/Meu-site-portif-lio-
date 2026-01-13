@@ -111,7 +111,7 @@ export const Career: React.FC = () => {
 
       {/* Carousel */}
       <div className="relative w-full flex overflow-hidden py-6">
-        <div className="flex animate-scroll gap-8 md:gap-12 px-8">
+        <div className="<div className="flex w-max animate-scroll gap-8 md:gap-12 px-8">
           {carouselItems.map((moment, index) => (
             <div
               key={`${moment.id}-${index}`}
