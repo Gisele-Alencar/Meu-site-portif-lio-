@@ -22,7 +22,7 @@ export const Contact: React.FC = () => {
           
           <a
             href="mailto:unigisele@gmail.com"
-            className="flex items-center gap-3 px-8 py-4 border-2 border-pink-600 text-black font-display text-lg uppercase hover:bg-pink-600 hover:text-white transition-colors"
+            className="flex items-center gap-3 px-8 py-4 border-12 border-pink-580 text-black font-display text-lg uppercase hover:bg-pink-600 hover:text-white transition-colors"
           >
             <Mail className="w-5 h-5" />
             Email
